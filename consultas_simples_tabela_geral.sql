@@ -15,7 +15,7 @@ select 'CPF: ' || cpf || ' RG: ' || rg as "CPF e RG" from cliente;
 -- Para selecionar os dados com um limite de quantidade (sempre contado a partir da ordem da tabela):
 select * from cliente limit 3;
 
--- Filtro data (condição "onde")
+-- Filtro data (condição "onde" [where])
 select nome, data_nascimento from cliente where data_nascimento > '2000-01-01';
 
 -- Filtro com intervalo expresso de datas
